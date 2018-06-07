@@ -177,7 +177,7 @@ plt.show()
 ```
 
 
-![png](output_14_0.png)
+![png](2018-5-28-A-Simple-Bloom-Filter/output_14_0.png)
 
 
 
@@ -191,11 +191,9 @@ print('largest bloom filter size: {:,} bytes'.format(bf_sizes[-1]))
 
 
 # Conclusion
-1. Bloom Filter is awsome! (if you have matched the condition to use it!)
+Bloom Filter is awsome! (if you have matched the condition to use it!)
 
-<center>
 ![awesome](https://media.giphy.com/media/d2Z9QYzA2aidiWn6/giphy.gif)
-</center>
 
 # References
 - https://en.wikipedia.org/wiki/Bloom_filter
