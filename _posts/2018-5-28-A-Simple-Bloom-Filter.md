@@ -1,7 +1,7 @@
-
-# [Draft] Data Structure Series - Bloom Filter
-
-## What is it?
+---
+layout: post
+title: A Simple Bloom Filter
+---
 It is a probabilistic data structure, that is commonly used to ask question "whether an element is in it or not?". From my description, it does seems like a job that [Set](https://brilliant.org/wiki/sets-adt/) can do, sooo...
 
 ## Why Should We Use It?
@@ -177,7 +177,7 @@ plt.show()
 ```
 
 
-![png](2018-5-28-A-Simple-Bloom-Filter/output_14_0.png)
+![png](/images/posts/2018-5-28-A-Simple-Bloom-Filter/output_14_0.png)
 
 
 

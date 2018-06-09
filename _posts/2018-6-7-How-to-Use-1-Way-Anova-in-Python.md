@@ -1,4 +1,4 @@
-
+One way anova is a technique for hypothesis testing
 
 ```python
 import pandas as pd
@@ -229,7 +229,7 @@ sns.distplot(data.Height)
 
 
 
-![png](2018-6-7-How-to-Use-1-Way-Anova-in-Python/output_13_1.png)
+![png](/images/posts/2018-6-7-How-to-Use-1-Way-Anova-in-Python/output_13_1.png)
 
 
 
@@ -248,7 +248,7 @@ plt.legend()
 
 
 
-![png](2018-6-7-How-to-Use-1-Way-Anova-in-Python/output_14_1.png)
+![png](/images/posts/2018-6-7-How-to-Use-1-Way-Anova-in-Python/output_14_1.png)
 
 
 
