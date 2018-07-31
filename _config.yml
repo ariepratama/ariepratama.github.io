@@ -6,7 +6,7 @@
 name: Arie P Sutiono
 
 # Short bio or description (displayed in the header)
-description: A Computer Scientist, Remind my Self of What I have learnt
+description: A Computer Scientist, Reminding my Self of What I have learnt
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://raw.githubusercontent.com/ariepratama/ariepratama.github.io/master/images/arie-logo.png
@@ -85,4 +85,4 @@ exclude:
   - README.md
   - CNAME
 
-theme: jekyll-theme-leap-day
+theme: jekyll-theme-cayman
