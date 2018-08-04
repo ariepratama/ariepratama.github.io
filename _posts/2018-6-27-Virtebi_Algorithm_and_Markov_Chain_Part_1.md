@@ -2,6 +2,9 @@
 layout: post
 title: Virtebi Algorithm and Markov Chain - Part 1
 ---
+Introduction to Virtebi Algorithm, Virtebi Path, Markov Chain, Hidden Markov Model.
+
+
 ## What is The Problem?
 
 To find the **most probable** sequence of states given an observation (or you can call it a result). This **most probable** sequence of states is also called the **Virtebi Path**, sounds cool eh?. 
