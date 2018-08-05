@@ -1,6 +1,10 @@
 ---
 layout: post
 title: Virtebi Algorithm and Hidden Markov Model - Part 2
+tags:
+    - python
+    - data_structure
+    - nlp
 ---
 
 

@@ -1,10 +1,16 @@
 ---
 layout: default
 ---
-
+<div class="post">
+  <h1 style='text-align:center'>#{{ page.tag }}</h1>
+</div>
+<hr/>
+<br/>
 <div class="posts">
-  {% for post in site.posts %}
+  {% for post in site.tags[page.tag] %}
+    
     <article class="post">
+
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
       <div class="entry">
@@ -21,5 +27,6 @@ layout: default
         {% endfor %}
       </ul>
     </article>
+    
   {% endfor %}
 </div>

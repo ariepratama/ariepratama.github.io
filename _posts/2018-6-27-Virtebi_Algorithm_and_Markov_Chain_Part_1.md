@@ -1,6 +1,10 @@
 ---
 layout: post
 title: Virtebi Algorithm and Markov Chain - Part 1
+tags:
+    - python
+    - markov
+    - data_structure
 ---
 Introduction to Virtebi Algorithm, Virtebi Path, Markov Chain, Hidden Markov Model.
 

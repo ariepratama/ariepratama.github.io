@@ -1,3 +1,9 @@
+---
+layout: post
+title: Bahasa Indonesia Open Source NLP Resource
+tags:
+  - nlp
+---
 moved from [here](https://medium.com/@arie.pratama.s/bahasa-indonesia-open-sourced-nlp-resources-8cb394193238)
 
 A few might know open sourced resources for Bahasa Indonesia NLP, since they are scattered everywhere on github. Here are a few that I know, hope it helps other people for getting started their NLP projects:

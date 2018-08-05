@@ -1,10 +1,12 @@
 ---
-layout: default
+layout: tag
+permalink: /tag
 ---
 
 <div class="posts">
   {% for post in site.posts %}
     <article class="post">
+
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
       <div class="entry">
@@ -17,7 +19,7 @@ layout: default
       <span>Tags:</span>
       <ul style='padding: 0'>
         {% for tag in post.tags%}
-          <li class='btn' style='padding: 2px;margin: 2px'><a href="/tag/{{ tag }}">#{{tag}}</a></li>
+          <li class='btn' style='padding: 2px;margin: 2px'><a href='#'>#{{tag}}</a></li>
         {% endfor %}
       </ul>
     </article>

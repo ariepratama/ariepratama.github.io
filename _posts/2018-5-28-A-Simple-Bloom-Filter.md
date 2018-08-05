@@ -1,6 +1,9 @@
 ---
 layout: post
 title: A Simple Bloom Filter
+tags:
+    - python
+    - data_structure
 ---
 It is a probabilistic data structure, that is commonly used to ask question "whether an element is in it or not?". From my description, it does seems like a job that [Set](https://brilliant.org/wiki/sets-adt/) can do, sooo...
 

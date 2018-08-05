@@ -1,6 +1,10 @@
 ---
 layout: post
 title: How to Use One Way ANOVA in Python
+tags: 
+  - python
+  - statistics
+  - hypothesis_testing
 ---
 
 One way ANOVA (Analysis of Variance) is a technique for hypothesis testing. It is used to test whether the means of different group is really different. 
