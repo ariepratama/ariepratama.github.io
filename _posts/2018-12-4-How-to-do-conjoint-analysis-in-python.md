@@ -4,7 +4,7 @@ title: How to Do Conjoint Analysis in python
 tags:
     - statistics
 ---
-Conjoint analysis is a method to find the most prefered settings of a product [11].
+This post shows how to do conjoint analysis using python. Conjoint analysis is a method to find the most prefered settings of a product [11]. 
 
 Usual fields of usage [3]:
 - Marketing
