@@ -4,6 +4,7 @@ title: Overcome Negative Thoughts and Build Optimism
 tags:
     - psychology
 ---
+A general advice on focusing on positive thoughts and less on negative thoughts. I found this will very helpful for me for now and in the future to fight for my thoughts and focus on what's important. Hopefully this could also be inspiration for anyone else. Special thanks for [Talk at Google](https://www.blog.google/inside-google/working-google/talks-google-shared/) and [Happify](https://www.happify.com/) to share.
 
 # Pessimism-Optimism 
 |Pessimist | Optimist |
