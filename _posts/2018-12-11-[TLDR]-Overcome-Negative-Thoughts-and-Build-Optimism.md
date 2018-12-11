@@ -87,7 +87,7 @@ A general advice on focusing on positive thoughts and less on negative thoughts.
 </table>
 
 
-# Optimism Can be Learn
+# Optimism Can be Learnt!
 ## Assess
 took a look at negative thought;
 
