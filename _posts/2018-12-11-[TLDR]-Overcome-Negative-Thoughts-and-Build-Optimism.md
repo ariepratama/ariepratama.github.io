@@ -7,19 +7,85 @@ tags:
 A general advice on focusing on positive thoughts and less on negative thoughts. I found this will very helpful for me for now and in the future to fight for my thoughts and focus on what's important. Hopefully this could also be inspiration for anyone else. Special thanks for [Talk at Google](https://www.blog.google/inside-google/working-google/talks-google-shared/) and [Happify](https://www.happify.com/) to share.
 
 # Pessimism-Optimism 
-|Pessimist | Optimist |
-|---|---|
-|see threats|see opportunities|
-|notice and expect bad|see opportunities|
-|doesn't solve anything, getting stuck at thinking|act to he/she can control|
+
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: center;
+    }
+</style>
+<table  class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Pessimist</th>
+      <th>Optimist</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>see threats</td>
+      <td>see opportunities</td>
+    </tr>
+    <tr>
+      <td>notice and expect bad</td>
+      <td>notice bad and turn that into fuel to move</td>
+    </tr>
+    <tr>
+      <td>doesn't solve anything, getting stuck at thinking</td>
+      <td>act to he/she can control</td>
+    </tr>
+  </tbody>
+</table>
+
 
 # Effects on Pessimism-Optimism
-|Pessimist | Optimist |
-|---|---|
-||tends to live longer 7-9 y|
-||tends to have more immune system, sick less frequently|
-||2-3 less heart problem|
-||tends to do better at school|
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: center;
+    }
+</style>
+<table  class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Pessimist</th>
+      <th>Optimist</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td></td>
+      <td>tends to live longer 7-9 y</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>tends to have more immune system, sick less frequently</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>2-3 less heart problem</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>tends to do better at school</td>
+    </tr>
+  </tbody>
+</table>
+
 
 # Optimism Can be Learn
 ## Assess
