@@ -36,7 +36,9 @@ This is one of an engineering manager job. Even managing team member movements i
 3. **Have Career Action Plan**. Think about the next job, it's okay if the job is not in the current company. Key: who does what by when.
 
 # References
+
 [1] [Radical Candor Ep.5 Podcast - Career Conversation](https://www.radicalcandor.com/blog/podcast-episode-5/)
+
 [2] Internal Conversation @ [Airy](https://airy.com)
 
 Thanks Fajar Firdaus to share with us.
