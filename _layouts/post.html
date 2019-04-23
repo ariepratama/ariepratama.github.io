@@ -4,6 +4,11 @@ layout: default
 
 <article class="post">
   <h1>{{ page.title }}</h1>
+  <ul style='padding: 0'>
+    {% for tag in page.tags%}
+    <li class="btn" style="padding: 2px;margin: 2px"><a class="btn" style="background-color: #5CDB95" href="/tag/{{ tag }}">#{{tag}}</a></li>
+    {% endfor %}
+  </ul>
 
   <div class="entry">
     {{ content }}
