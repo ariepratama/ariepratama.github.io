@@ -16,3 +16,26 @@ Speechbrain uses `SentencePiece` tokenizer, and in the yaml example, it has 2 co
 
 
 `character_coverage` is to be used in conjunction with `token_type=bpe`, which will indicates the percentage or fraction of characters that the sentencepiece model should cover. `1.0` means 100% characters will be covered, and this is the default value, since it does make sense to cover all the characters in a language. However, when using the SentencePiece tokenizer for rich languages, like Chinese or Japanese [the documentation](https://github.com/google/sentencepiece) itself mention to reduce this towards `0.9995`.
+
+
+## Augmentation
+
+### TimeDomainSpecAugment
+is an augmentation that capable to: drop chunks of audio, or drop frequency band, or do speed perturbation. The default augmentation for my experiments is speed perturbation, where we speed up or speed down the input spectogram. Here is an example of where to use the augmentation.
+
+```python
+# wavs and wav_lens are loaded spectogram in form of pytorch
+wavs, wav_lens = wavs.to(self.device), wav_lens.to(self.device)
+# do augmentation directly to the wavs itself, 
+# wav_lens is a must for this augmentation
+# hparams is configuration loaded from speechbrain yaml
+# hparams.augmentation will be initiated with TimeDomainSpecAugment
+wavs = self.hparams.augmentation(wavs, wav_lens)
+```
+
+and here is the example of yaml, that will be translated into `hparams` object. 
+```
+augmentation: !new:speechbrain.lobes.augment.TimeDomainSpecAugment
+    sample_rate: !ref <sample_rate>
+    speeds: [95, 100, 105]
+```
