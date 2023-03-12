@@ -39,3 +39,26 @@ augmentation: !new:speechbrain.lobes.augment.TimeDomainSpecAugment
     sample_rate: !ref <sample_rate>
     speeds: [95, 100, 105]
 ```
+
+### SpecAugment
+is an augmentation procedure that can do frequency masking, or time masking, or time warping. This augmentation will be applied to log mel spectogram, or latent feature. 
+
+Frequency masking, is to 0 out the frequency, which is the `x` axis in log mel spectogram. While time masking, is to 0 out values along time axis, which is the `y` axis in log mel spectogram. Finally, time warping means to "remove" some sequential portion of the spectogram, or in other hand: "removing the values from time x1 to x2".
+
+Here is the sample code, that describes where to put the augmentation with `wav2vec` model.
+
+```python
+wavs, wav_lens = wavs.to(self.device), wav_lens.to(self.device)
+# Create latent feature from raw wavs with wav2vec2 model
+feats = self.modules.wav2vec2(wavs)
+# apply SpecAugment augmentation 
+feats = self.hparams.augmentation(feats)
+```
+
+and here is the example on how to define the `SpecAugment` in speechbrain yaml file.
+```
+augmentation: !new:speechbrain.lobes.augment.SpecAugment
+    freq_mask: True
+    time_warp: True
+    time_mask: True
+```
