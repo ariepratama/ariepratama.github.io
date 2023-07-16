@@ -51,7 +51,7 @@ services:
     volumes:
       - data01:/usr/share/elasticsearch/data
     network_mode: host
-
+    
 volumes:
   data01:
     driver: local
