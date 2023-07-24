@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Autocomplete search with elasticsearch
+title: Geo spatial queries with elasticsearch
 tags:
     - software engineering
     - elasticsearch
