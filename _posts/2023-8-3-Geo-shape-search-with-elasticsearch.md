@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Geo spatial queries with elasticsearch
+title: Region / geo shape search with elasticsearch
 tags:
     - software engineering
     - elasticsearch
